@@ -1,0 +1,24 @@
+{
+  "dataset_name": "Dataset cardio",
+  "model_name": "Random Forest",
+  "accuracy": 0.7319,
+  "precision": 0.7561,
+  "recall": 0.6841,
+  "f1_score": 0.7183,
+  "roc_auc": 0.7983,
+  "train_size": 56000,
+  "test_size": 14000,
+  "features": [
+    "age",
+    "gender",
+    "height",
+    "weight",
+    "ap_hi",
+    "ap_lo",
+    "cholesterol",
+    "gluc",
+    "smoke",
+    "alco",
+    "active"
+  ]
+}

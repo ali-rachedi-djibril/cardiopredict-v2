@@ -1,0 +1,42 @@
+# ── Données brutes (si tu veux les exclure plus tard) ────────────────────────
+# site/data/*.csv
+# notebooks/*.csv
+
+# ── Fichiers Excel (doublons inutiles) ────────────────────────────────────────
+site/data/*.xlsx
+*.xlsx
+
+# ── Fichiers temporaires du site ──────────────────────────────────────────────
+site/tmp/*.json
+tmp/*.json
+
+# ── Fichiers de diagnostic serveur ────────────────────────────────────────────
+site/php_info.php
+site/test_shell.php
+site/test_libs.php
+site/test_*.php
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.env
+venv/
+env/
+
+# ── Modèles lourds (les JSON sont suffisants) ─────────────────────────────────
+*.joblib
+*.pkl
+*.pickle
+
+# ── Système ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
